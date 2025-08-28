@@ -11,6 +11,7 @@ Student::~Student() {
     delete age;
 }
 
+// setters
 void Student::setName(string s) {
     *name = s;
 }
@@ -19,6 +20,7 @@ void Student::setAge(int i) {
     *age = i;
 }
 
+// getters
 string Student::getName() const{
     return *name;
 }

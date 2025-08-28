@@ -12,11 +12,14 @@ class Student {
     int* age;
 
     public:
-    Student();
-    ~Student();
+    Student(); // constructor 
+    ~Student(); // destructor
+
+    // setters
     void setName(string);
     void setAge(int);
 
+    // getters
     string getName() const;
     int getAge() const;
 };
